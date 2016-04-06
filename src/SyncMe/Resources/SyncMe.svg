@@ -11,16 +11,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="adri.svg"
-   inkscape:export-filename="/home/darias/adri3.svg.png"
+   inkscape:export-ydpi="244.91"
    inkscape:export-xdpi="244.91"
-   inkscape:export-ydpi="244.91">
+   inkscape:export-filename="/home/darias/Escritorio/posible2"
+   sodipodi:docname="SyncMe.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 744.09448819 1052.3622047"
+   height="297mm"
+   width="210mm">
   <defs
      id="defs4">
     <linearGradient
@@ -353,30 +353,180 @@
        x2="221.24564"
        y2="840.55219"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:label="Comics Draft"
+       inkscape:menu-tooltip="Draft painted cartoon shading with a glassy look"
+       inkscape:menu="Non realistic 3D shaders"
+       height="1.5"
+       y="-0.25"
+       width="1.5"
+       x="-0.25"
+       style="color-interpolation-filters:sRGB"
+       id="filter4315">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="result8"
+         in="SourceGraphic"
+         id="feGaussianBlur4317" />
+      <feComposite
+         in2="result8"
+         operator="xor"
+         id="feComposite4319" />
+      <feComposite
+         k2="1"
+         operator="arithmetic"
+         result="result16"
+         in2="result8"
+         id="feComposite4321" />
+      <feComposite
+         in2="result16"
+         result="result6"
+         operator="xor"
+         in="result16"
+         id="feComposite4323" />
+      <feOffset
+         result="result17"
+         in="SourceGraphic"
+         id="feOffset4325" />
+      <feDisplacementMap
+         in2="result16"
+         in="result17"
+         xChannelSelector="A"
+         yChannelSelector="A"
+         scale="100"
+         result="result4"
+         id="feDisplacementMap4327" />
+      <feComposite
+         in2="result4"
+         result="result2"
+         operator="arithmetic"
+         in="SourceGraphic"
+         k3="1"
+         id="feComposite4329" />
+      <feComposite
+         in2="result2"
+         result="fbSourceGraphic"
+         in="result6"
+         operator="in"
+         id="feComposite4331" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result14"
+         id="feComposite4333" />
+      <feComposite
+         result="result15"
+         in2="SourceGraphic"
+         operator="in"
+         in="result14"
+         id="feComposite4335" />
+    </filter>
+    <filter
+       inkscape:label="Diffuse Light"
+       inkscape:menu="Morphology"
+       inkscape:menu-tooltip="Creates a black light inside and outside"
+       height="1.5"
+       width="1.5"
+       y="-0.25"
+       x="-0.25"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5982">
+      <feGaussianBlur
+         stdDeviation="5"
+         in="SourceAlpha"
+         result="result1"
+         id="feGaussianBlur5984" />
+      <feComposite
+         operator="arithmetic"
+         k2="3.2"
+         k1="-1"
+         k4="-2"
+         result="result3"
+         in2="result1"
+         id="feComposite5986" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result2"
+         id="feColorMatrix5988" />
+      <feComposite
+         result="fbSourceGraphic"
+         in="SourceGraphic"
+         operator="out"
+         in2="result2"
+         id="feComposite5990" />
+      <feBlend
+         mode="multiply"
+         in="result1"
+         in2="fbSourceGraphic"
+         result="result91"
+         id="feBlend5992" />
+      <feBlend
+         mode="screen"
+         in="fbSourceGraphic"
+         in2="result91"
+         id="feBlend5994"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix6176" />
+      <feGaussianBlur
+         id="feGaussianBlur6178"
+         in="fbSourceGraphic"
+         stdDeviation="0.1"
+         result="blur" />
+      <feDiffuseLighting
+         id="feDiffuseLighting6180"
+         diffuseConstant="1"
+         surfaceScale="10"
+         lighting-color="rgb(255,255,255)"
+         result="diffuse">
+        <feDistantLight
+           id="feDistantLight6182"
+           elevation="0"
+           azimuth="235" />
+      </feDiffuseLighting>
+      <feComposite
+         in2="diffuse"
+         id="feComposite6184"
+         in="diffuse"
+         operator="arithmetic"
+         k1="1"
+         result="composite1" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite6186"
+         in="composite1"
+         k1="1"
+         operator="arithmetic"
+         k3="1"
+         result="composite2" />
+    </filter>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="148.92637"
-     inkscape:cy="164.34398"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:snap-bbox="false"
-     inkscape:snap-global="true"
+     inkscape:window-maximized="0"
+     inkscape:window-y="118"
+     inkscape:window-x="110"
+     inkscape:window-height="394"
+     inkscape:window-width="884"
      inkscape:snap-intersection-paths="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="719"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1">
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="false"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     showgrid="true"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="158.30668"
+     inkscape:cx="106.21093"
+     inkscape:zoom="4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
     <sodipodi:guide
        position="368.57143,734.28573"
        orientation="1,0"
@@ -394,7 +544,7 @@
        orientation="0,1"
        id="guide9967" />
     <sodipodi:guide
-       position="149.6875,169.13282"
+       position="94.398757,175.71604"
        orientation="29.85398,-17.2362"
        id="guide9975" />
     <sodipodi:guide
@@ -430,7 +580,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -439,11 +589,20 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#112a42;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.1,0.1;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       style="fill:#112a42;fill-opacity:0.91605842;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.1, 0.10000000000000001;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 150.05,852.3122 a 50,50 0 0 0 -50,50 50,50 0 0 0 50,50 50,50 0 0 0 50,-50 50,50 0 0 0 -50,-50 z"
+       id="path3362-5"
+       inkscape:export-xdpi="244"
+       inkscape:export-ydpi="244"
+       inkscape:export-filename="/home/darias/Escritorio/a" />
+    <path
+       style="fill:#112a42;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.1, 0.10000000000000001;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4315)"
        d="M 150 852.36133 A 50 50 0 0 0 100 902.36133 A 50 50 0 0 0 150 952.36133 A 50 50 0 0 0 200 902.36133 A 50 50 0 0 0 150 852.36133 z "
        id="path3362"
        inkscape:export-xdpi="244"
-       inkscape:export-ydpi="244" />
+       inkscape:export-ydpi="244"
+       inkscape:export-filename="/home/darias/Escritorio/a" />
     <circle
        style="fill:#d6e3c4;fill-opacity:1"
        id="path3364-0"
@@ -470,7 +629,7 @@
        inkscape:export-ydpi="244" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:none;fill-opacity:1;stroke:#404a52;stroke-width:8.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:68,34;stroke-dashoffset:8.5;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#404a52;stroke-width:8.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:68, 34;stroke-dashoffset:8.5;stroke-opacity:1;filter:url(#filter5982)"
        d="m 150.05,852.3122 a 50,50 0 0 0 -50,50 50,50 0 0 0 50,50 50,50 0 0 0 50,-50 50,50 0 0 0 -50,-50 z"
        id="path3362-7"
        inkscape:export-xdpi="244"
