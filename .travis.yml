@@ -2,7 +2,7 @@ language: cpp
 compiler:
   - gcc
   
-# Whitelist
+# Branched whitelist
 branches:
   only:
     - master
