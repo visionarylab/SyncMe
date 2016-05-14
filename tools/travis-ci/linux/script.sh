@@ -8,3 +8,4 @@ qmake
 make
 popd
 popd
+# .
