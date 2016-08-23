@@ -4,7 +4,7 @@ Build Status: [![Build Status](https://travis-ci.org/AdrianBZG/SyncMe.svg?branch
 
 SyncMe is a cross-platform application (Linux, Windows, Mac) written in Qt5 and C++ with the main goal of unify the synchronization of Dropbox and Google Drive platforms into a single application, allowing you to manage all your files easily.
 
-Official blog: [SyncMe Blog](https://syncme.wordpress.com/)
+Official blog: [SyncMe Blog](https://syncme.wordpress.com/)<br>
 Developer website: [Adrián Rodríguez Bazaga](http://www.adrianbazaga.info/)
 
 Please note that development is very early on and the project is not ready to use yet.
